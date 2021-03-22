@@ -1,14 +1,99 @@
 .test {
-    border: 1px solid red;
+  border: 1px solid red;
+}
+
+/* Common Styles */
+body,html {
+  font-family: 'Proxima Nova Rg';
+  height:100%;
+}
+
+h3 {
+  font-family: 'Proxima Nova Bold';
+  font-size: 2.425rem;
+}
+
+/* Header Styles */
+.bg-black {
+    background-color: #000000 !important;
+}
+
+/* Section Hero Styles */
+section.hero {
+  background: url(../img/hero_01.jpg) no-repeat center center;
+  background-size: cover;
+  height: 80vh;
+}
+
+section.hero h1 {
+  font-size: 5rem;
+  font-family: 'Proxima Nova Bold';
+  letter-spacing: .1rem;
+   color: #fff;
+}
+
+/* Section About Styles */
+section.about {
+  height: 100vh;
+  background: rgb(235,235,235);
+  background: linear-gradient(90deg, rgba(235,235,235,1) 0%, rgba(235,235,235,1) 35%, rgba(255,255,255,1) 35%, rgba(255,255,255,1) 100%);
+}
+
+section.about .image_wrapper {
+  background: #fff;
+  box-shadow: 10px 10px 16px -4px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 10px 10px 16px -4px rgba(0,0,0,0.5);
+  -moz-box-shadow: 10px 10px 16px -4px rgba(0,0,0,0.5);
+}
+
+section.about .image_wrapper img {
+  padding: .75rem;
+}
+
+section.about span {
+  font-family: 'Proxima Nova Rg';
+  font-size: 1.312rem;
+  letter-spacing: .05rem;
+}
+
+section.about p {
+  font-family: 'Proxima Nova Th';
+  font-size: 1.312rem;
+  letter-spacing: .02rem;
+}
+
+/* Section About Services */
+section.services {
+  height: 100vh;
+  background: #ebebeb;
+
+}
+
+section.services h2 {
+  font-family: 'Proxima Nova Extrabld';
+  font-size: 3rem;
+  padding: 7rem 0 1rem 0;
+}
+
+section.services hr {
+  width: 100px;
+  border-top: 1px solid rgba(0, 0, 0, 1);
   }
 
-.body {
-  font-family : 'Nunito';
 
-  }
+section.services .card {
+    background-color: #fffbf8;
+    margin: 1rem;
+}
 
-  h1 {
-    font-size :5rem;
-    font-family: 'Nunito Bold';
-    letter-spacing: .1rem;
-  }
+section.services .card-footer {
+    background-color: transparent;
+    border-top: 0px;
+}
+
+/* Footer Styles */
+footer {
+  background: #111111;
+  min-height: 60px;
+  display:
+}
